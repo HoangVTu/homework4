@@ -1,0 +1,3 @@
+Q5
+1: Code reusability is where inheritance allow programmer to derive or inherit properties that a child class can use through inheritance. By doing so, it help reduce how much code we have to write.
+2: Better maintenance since any change in our derived class will just only affect that specific section and will not cause any errors for any other class. This will help us save time on maintaining the program and create less errors or bugs.
