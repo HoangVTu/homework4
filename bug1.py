@@ -13,7 +13,7 @@ class Circle(Base):
         super().__init__(x, y, size)
 
     def shape(self):
-        return "Circle Shape"
+        return "This is a circle Shape"
 
     def draw(self):
         return f"""
