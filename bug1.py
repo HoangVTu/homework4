@@ -3,9 +3,13 @@ class Base:
         self.x = x
         self.y = y
         self.size = size
+    def shape(self):
+        return "Base shape"
+    def draw(self):
+        return "Drawn from base shape"
 
 class Circle(Base):
-    def __init__(self, x,y,size):
+    def __init__(self, x, y,size):
         super().__init__(x, y, size)
 
     def shape(self):
@@ -27,3 +31,9 @@ class Circle(Base):
        ' - , _ _ _ ,  '
                """
 
+def main():
+    c = Circle(1,2,3)
+    print(c.shape())
+    print(c.draw())
+
+main()

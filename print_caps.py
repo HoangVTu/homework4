@@ -1,6 +1,6 @@
 def allcaps(txt):
     def wrapper():
-        result = txt()
-        result = txt().upper()
-        print([result])
+        value = txt()
+        result = value.upper()
+        return(result)
     return wrapper
